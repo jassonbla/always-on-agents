@@ -1,0 +1,19 @@
+{
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "allow": [
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Edit(MEMORY.md)",
+      "Edit(memory/**)",
+      "Edit(journal/**)",
+      "Edit(references/**)",
+      "Edit(proposals/**)",
+      "Edit(procedures/**)"
+    ]
+  }
+}

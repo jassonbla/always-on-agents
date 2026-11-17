@@ -1,0 +1,3 @@
+@AGENTS.md
+@PERSONA.md
+@MEMORY.md
