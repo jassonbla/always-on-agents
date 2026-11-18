@@ -8,6 +8,15 @@ Clone it and start your agent in the root. The agent reads `AGENTS.md`, and `AGE
 The design goal: the files that the agent loads at every session start stay constant for months.
 All information that grows goes into directories that the bot searches on demand.
 
+## Scope
+
+This harness does two things:
+
+1. It keeps the memory of the bot correct and searchable for months.
+2. It keeps the persona of the bot constant. The bot does not change its own rules or persona. A human approves all changes.
+
+This harness does not control how the bot starts. Schedulers, webhooks, event inboxes, outboxes, and the agent runtime are not part of the harness. Tune them for your deployment.
+
 ## The problem
 
 A bot that runs for months with only one instruction file writes everything into that file.
